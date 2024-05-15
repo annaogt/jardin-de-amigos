@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #33333300; 
+    color: rgb(0, 0, 0); 
+    padding: 20px; /* Espaciado interno superior e inferior */
+    text-align: center; /* Alineación del texto al centro */
+    float:none;
+  }
+  
+  nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li 
+  {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a:hover 
+  {
+
+    background-color: hsla(0, 1%, 19%, 0.486);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px 0 rgba(77, 77, 77, 0.767);
+  }
+  nav ul li a 
+  {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    padding: 10px 10px; 
+}
+  .search {
+    margin-left: auto;
+  }
+  
+  .search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+  .img
+{
+    border-radius: 10px;
+    width: 50px;
+    left: 50px;
+    float: left;
+    border-left: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+#buscador {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 1.2s;
+    box-shadow: 0px 0px 10px 0 rgba(77, 77, 77, 0.767);
+    border: none;
+  }
+  #boton-buscar {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color:  #4bb4ddc4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+  
+  #boton-buscar:hover {
+    background-color: #4bdda0c4;
+  }
+  .contenedor {
+    background-color: #ffffff;
+    padding: 20px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  /*.contenedor .foto1
+  {
+    border-radius: 10px;
+    width: 206px;
+    left: 306px;
+    position: center;
+  }*/
+.contenedor .letras
+{
+    font-size: 50px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.contenedor p
+{
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+}
